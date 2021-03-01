@@ -1,0 +1,29 @@
+.player{
+    display:flex;
+    margin-bottom: 20px;
+    padding: 20px;
+    overflow: hidden;
+    align-items: center;
+}
+.player .player-img img{
+    width: 250px;
+    height:300px;
+    border-radius:5px;
+}
+.player .player-img{
+    padding: 20px;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+.player-detail{
+    width: 100%;
+}
+.add-btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color:#0699a7;
+    font-weight: 500;
+    color: #fff;
+}
